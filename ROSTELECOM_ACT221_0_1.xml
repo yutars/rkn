@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tns:ACT221 xmlns:tns="http://noc.gov.ru/pirs-schema/1.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://noc.gov.ru/pirs-schema/1.00">
   <AdminData>
-    <CarrierName>ООО "Ромашка"</CarrierName>
-    <FileDate>2020-06-06</FileDate>
-    <XsdVersion>2020060601</XsdVersion>
+    <CarrierName>ООО "Автоматизация и СВязь - Сервис"</CarrierName>
+    <FileDate>2020-10-05</FileDate>
+    <XsdVersion>20201005</XsdVersion>
   </AdminData>
   <AsOwnerData>
     <AS>
-      <AsId>AS12345</AsId>
-      <AsNumber>AS12345</AsNumber>
+      <AsId>AS57754</AsId>
+      <AsNumber>AS57754</AsNumber>
       <AsIpRange>
-        <IpRangeAsNumber>AS12345</IpRangeAsNumber>
+        <IpRangeAsNumber>AS57754</IpRangeAsNumber>
         <IpRangeOwner>actor-1</IpRangeOwner>
       </AsIpRange>
       <AsResponsible>actor-1</AsResponsible>
       <AsBGPRoutingInfo>
         <AsBGPRouterIpAddress>
-          <IPv4_subnet>123.456.204.0/22</IPv4_subnet>
+          <IPv4_subnet>171.25.194/23</IPv4_subnet>
         </AsBGPRouterIpAddress>
         <AsBGPRouteEquipLocation>location-1</AsBGPRouteEquipLocation>
       </AsBGPRoutingInfo>
@@ -25,19 +25,19 @@
   <Location>
     <LocationId>location-1</LocationId>
     <Country>RU</Country>
-    <Address>Московская область, ГОРОД, Улица, дом </Address>
+    <Address>628684, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Западная, №8 </Address>
   </Location>
   <Actor>
     <ActorId>actor-1</ActorId>
     <RFOrganization>
-      <FullName>ООО "Ромашка"</FullName>
-      <ShortName>ООО "РМШК"</ShortName>
+      <FullName>ООО "Автоматизация и СВязь - Сервис"</FullName>
+      <ShortName>ООО "АиС-Сервис"</ShortName>
       <LegalForm>Общество с ограниченной ответственностью</LegalForm>
-      <OGRN>1234567890</OGRN>
-      <INN>1234567890</INN>
+      <OGRN>1038602103671</OGRN>
+      <INN>8605016748</INN>
       <ActorLocation>location-1</ActorLocation>
-      <Phone>+7-99999999</Phone>
-      <Email>abonotdel@romashka.ru</Email>
+      <Phone>+73464341444</Phone>
+      <Email>sekretar@ais-s.ru</Email>
     </RFOrganization>
   </Actor>
 </tns:ACT221>
