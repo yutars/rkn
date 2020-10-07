@@ -27,6 +27,21 @@
     <Country>RU</Country>
     <Address>628684, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Западная, №8 </Address>
   </Location>
+  <Location>
+    <LocationId>location-2</LocationId>
+    <Country>RU</Country>
+    <Address>628681, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Новая, №30а </Address>
+  </Location>
+  <Location>
+    <LocationId>location-4</LocationId>
+    <Country>RU</Country>
+    <Address>628681, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Кузьмина, №9 </Address>
+  </Location>
+  <Location>
+    <LocationId>location-3</LocationId>
+    <Country>RU</Country>
+    <Address>628684, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Театральный проезд, №2 </Address>
+  </Location>
   <Actor>
     <ActorId>actor-1</ActorId>
     <RFOrganization>
@@ -40,4 +55,77 @@
       <Email>sekretar@ais-s.ru</Email>
     </RFOrganization>
   </Actor>
+  <NetworkNode>
+    <NnID>ATS41<NnID/>
+    <NnShortName>АТС №41</NnShortName>
+    <Location>location-1</Location>
+  </NetworkNode>
+  <NetworkNode>
+    <NnID>ATS42<NnID/>
+    <NnShortName>АТС №42</nNShortName>
+    <Location>location-2</Location>
+  </NetworkNode>  
+  <NetworkNode>
+    <NnID>ATS43</NnID>
+    <NnShortName>АТС №43</nNShortName>
+    <Location>location-3</Location>
+  </NetworkNode>
+  <NetworkNode>
+    <NnID>ATS47</NnID>
+    <NnShortName>АТС №47</nNShortName>
+    <Location>location-4</Location>
+  </NetworkNode>
+  <CommunicationEquipment>
+    <CeId>cadsl41</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeModel>IES-2000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeShortName>ies-2000 ats41</CeShortName>
+    <CeNNode>ATS41</CeNNode>
+  </CommunicationEquipment>
+  <CommunicationEquipment>
+    <CeId>cadsl42</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeModel>IES-2000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeShortName>ies-2000 ats42</CeShortName>
+    <CeNNode>ATS42</CeNNode>
+  </CommunicationEquipment>
+  <CommunicationEquipment>
+    <CeId>cadsl43</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeModel>IES-1248</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeShortName>ies-1248 ats42</CeShortName>
+    <CeNNode>ATS43</CeNNode>
+  </CommunicationEquipment>
+  <CommunicationEquipment>
+    <CeId>cadsl47</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeModel>IES-3000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeShortName>ies-3000 ats47</CeShortName>
+    <CeNNode>ATS43</CeNNode>
+  </CommunicationEquipment>
+  <ConnectorLine>
+    ClId<>line4142<ClId>
+    <ClName>Oline4142</ClName>
+    <ClLocationA>location-1</ClLocationA>
+    <ClLocationB>location-2</ClLocationB>
+    <ClType>OPTIC</ClType>
+  <ConnectorLine/>
+  <ConnectorLine>
+    ClId<>line4143<ClId>
+    <ClName>Oline4142</ClName>
+    <ClLocationA>location-1</ClLocationA>
+    <ClLocationB>location-3</ClLocationB>
+    <ClType>OPTIC</ClType>
+  <ConnectorLine/>
+  <ConnectorLine>
+    ClId<>line4147<ClId>
+    <ClName>Oline41427/ClName>
+    <ClLocationA>location-1</ClLocationA>
+    <ClLocationB>location-4</ClLocationB>
+    <ClType>OPTIC</ClType>
+  <ConnectorLine/>
 </tns:ACT221>
