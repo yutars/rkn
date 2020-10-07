@@ -56,23 +56,23 @@
     </RFOrganization>
   </Actor>
   <NetworkNode>
-    <NnID>ATS41<NnID/>
+    <NnID>ATS41</NnID>
     <NnShortName>АТС №41</NnShortName>
     <Location>location-1</Location>
   </NetworkNode>
   <NetworkNode>
-    <NnID>ATS42<NnID/>
-    <NnShortName>АТС №42</nNShortName>
+    <NnID>ATS42</NnID>
+    <NnShortName>АТС №42</NnShortName>
     <Location>location-2</Location>
   </NetworkNode>  
   <NetworkNode>
     <NnID>ATS43</NnID>
-    <NnShortName>АТС №43</nNShortName>
+    <NnShortName>АТС №43</NnShortName>
     <Location>location-3</Location>
   </NetworkNode>
   <NetworkNode>
     <NnID>ATS47</NnID>
-    <NnShortName>АТС №47</nNShortName>
+    <NnShortName>АТС №47</NnShortName>
     <Location>location-4</Location>
   </NetworkNode>
   <CommunicationEquipment>
@@ -108,24 +108,24 @@
     <CeNNode>ATS43</CeNNode>
   </CommunicationEquipment>
   <ConnectorLine>
-    ClId<>line4142<ClId>
-    <ClName>Oline4142</ClName>
-    <ClLocationA>location-1</ClLocationA>
-    <ClLocationB>location-2</ClLocationB>
+    <ClId>line4241</ClId>
+    <ClName>Oline4241</ClName>
+    <ClLocationA>location-2</ClLocationA>
+    <ClLocationB>location-1</ClLocationB>
     <ClType>OPTIC</ClType>
-  <ConnectorLine/>
+  </ConnectorLine>
   <ConnectorLine>
-    ClId<>line4143<ClId>
-    <ClName>Oline4142</ClName>
-    <ClLocationA>location-1</ClLocationA>
-    <ClLocationB>location-3</ClLocationB>
+    <ClId>line4341</ClId>
+    <ClName>Oline4341</ClName>
+    <ClLocationA>location-3</ClLocationA>
+    <ClLocationB>location-1</ClLocationB>
     <ClType>OPTIC</ClType>
-  <ConnectorLine/>
+  </ConnectorLine>
   <ConnectorLine>
-    ClId<>line4147<ClId>
-    <ClName>Oline41427/ClName>
-    <ClLocationA>location-1</ClLocationA>
-    <ClLocationB>location-4</ClLocationB>
+    <ClId>line4147</ClId>
+    <ClName>Oline4147</ClName>
+    <ClLocationA>location-4</ClLocationA>
+    <ClLocationB>location-1</ClLocationB>
     <ClType>OPTIC</ClType>
-  <ConnectorLine/>
+  </ConnectorLine>
 </tns:ACT221>
