@@ -23,25 +23,31 @@
     </AS>
   </AsOwnerData>
   <Location>
-    <LocationId>location-1</LocationId>
+    <LocationId>0001</LocationId>
     <Country>RU</Country>
     <Address>628684, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Западная, №8 </Address>
   </Location>
   <Location>
-    <LocationId>location-2</LocationId>
+    <LocationId>0002</LocationId>
     <Country>RU</Country>
     <Address>628681, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Новая, №30а </Address>
   </Location>
   <Location>
-    <LocationId>location-4</LocationId>
+    <LocationId>0004</LocationId>
     <Country>RU</Country>
     <Address>628681, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Кузьмина, №9 </Address>
   </Location>
   <Location>
-    <LocationId>location-3</LocationId>
+    <LocationId>0003</LocationId>
     <Country>RU</Country>
     <Address>628684, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Театральный проезд, №2 </Address>
   </Location>
+  <Location>
+    <LocationId>0005</LocationId>
+    <Address>628656, Ханты-Мансийский автономный округ - Югра, пгт.Высокий, ул.Восточная</Address>
+    <CoordinateX>61.12723996464193</CoordinateX>
+    <CoordinateY>76.02460601964076</CoordinateY>
+ </Location>
   <Actor>
     <ActorId>actor-1</ActorId>
     <RFOrganization>
@@ -50,82 +56,94 @@
       <LegalForm>Общество с ограниченной ответственностью</LegalForm>
       <OGRN>1038602103671</OGRN>
       <INN>8605016748</INN>
-      <ActorLocation>location-1</ActorLocation>
+      <ActorLocation>0001</ActorLocation>
       <Phone>+73464341444</Phone>
       <Email>sekretar@ais-s.ru</Email>
     </RFOrganization>
   </Actor>
+  <Document>
+    <DocumentIId>2001</DocumentIId>
+    <DocName>>Разрешение на эксплуатацию сооружения связи</DocName>
+    <DocNumber>86-35897-005548</DocNumber>
+    <DocDateFrom>12-05-2008</DocDateFrom>
+    <DocDateTo>31-10-2010</DocDateTo>
+  </Document>
   <NetworkNode>
-    <NnID>ATS41</NnID>
+    <NnID>3041</NnID>
     <NnShortName>АТС №41</NnShortName>
-    <Location>location-1</Location>
+    <Location>0001</Location>
   </NetworkNode>
   <NetworkNode>
-    <NnID>ATS42</NnID>
+    <NnID>3042</NnID>
     <NnShortName>АТС №42</NnShortName>
-    <Location>location-2</Location>
+    <Location>0002</Location>
   </NetworkNode>  
   <NetworkNode>
-    <NnID>ATS43</NnID>
+    <NnID>3043</NnID>
     <NnShortName>АТС №43</NnShortName>
-    <Location>location-3</Location>
+    <Location>0003</Location>
   </NetworkNode>
   <NetworkNode>
-    <NnID>ATS47</NnID>
+    <NnID>3047</NnID>
     <NnShortName>АТС №47</NnShortName>
-    <Location>location-4</Location>
+    <Location>0004</Location>
+  </NetworkNode>
+  <NetworkNode>
+    <NnID>3048</NnID>
+    <NnShortName>АТС №48</NnShortName>
+    <Location>0005</Location>
   </NetworkNode>
   <CommunicationEquipment>
-    <CeId>cadsl41</CeId>
+    <CeId>4041</CeId>
     <CeName>Коммутатор ADSL</CeName>
     <CeModel>IES-2000</CeModel>
     <CeManufacturer>Zyxel</CeManufacturer> 
     <CeShortName>ies-2000 ats41</CeShortName>
-    <CeNNode>ATS41</CeNNode>
+    <CeNNode>4041</CeNNode>
   </CommunicationEquipment>
   <CommunicationEquipment>
-    <CeId>cadsl42</CeId>
+    <CeId>4042</CeId>
     <CeName>Коммутатор ADSL</CeName>
     <CeModel>IES-2000</CeModel>
     <CeManufacturer>Zyxel</CeManufacturer> 
     <CeShortName>ies-2000 ats42</CeShortName>
-    <CeNNode>ATS42</CeNNode>
+    <CeNNode>3042</CeNNode>
   </CommunicationEquipment>
   <CommunicationEquipment>
-    <CeId>cadsl43</CeId>
+    <CeId>4043</CeId>
     <CeName>Коммутатор ADSL</CeName>
     <CeModel>IES-1248</CeModel>
     <CeManufacturer>Zyxel</CeManufacturer> 
     <CeShortName>ies-1248 ats42</CeShortName>
-    <CeNNode>ATS43</CeNNode>
+    <CeNNode>3043</CeNNode>
   </CommunicationEquipment>
   <CommunicationEquipment>
-    <CeId>cadsl47</CeId>
+    <CeId>4047</CeId>
     <CeName>Коммутатор ADSL</CeName>
     <CeModel>IES-3000</CeModel>
     <CeManufacturer>Zyxel</CeManufacturer> 
     <CeShortName>ies-3000 ats47</CeShortName>
-    <CeNNode>ATS43</CeNNode>
+    <CeNNode>3043</CeNNode>
   </CommunicationEquipment>
   <ConnectorLine>
-    <ClId>line4241</ClId>
+    <ClId>5001</ClId>
     <ClName>Oline4241</ClName>
-    <ClLocationA>location-2</ClLocationA>
-    <ClLocationB>location-1</ClLocationB>
+    <ClLocationA>0002</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
     <ClType>OPTIC</ClType>
   </ConnectorLine>
   <ConnectorLine>
-    <ClId>line4341</ClId>
+    <ClId>5002</ClId>
     <ClName>Oline4341</ClName>
-    <ClLocationA>location-3</ClLocationA>
-    <ClLocationB>location-1</ClLocationB>
+    <ClLocationA>0003</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
     <ClType>OPTIC</ClType>
   </ConnectorLine>
   <ConnectorLine>
-    <ClId>line4147</ClId>
+    <ClId>5003</ClId>
     <ClName>Oline4147</ClName>
-    <ClLocationA>location-4</ClLocationA>
-    <ClLocationB>location-1</ClLocationB>
+    <ClLocationA>0004</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
     <ClType>OPTIC</ClType>
   </ConnectorLine>
 </tns:ACT221>
