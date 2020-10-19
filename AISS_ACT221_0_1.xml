@@ -11,16 +11,32 @@
       <AsNumber>AS57754</AsNumber>
       <AsIpRange>
         <IpRangeAsNumber>AS57754</IpRangeAsNumber>
-        <IpRangeOwner>actor-1</IpRangeOwner>
+        <IpRangeOwner>1001</IpRangeOwner>
       </AsIpRange>
-      <AsResponsible>actor-1</AsResponsible>
+      <AsResponsible>1001</AsResponsible>
       <AsBGPRoutingInfo>
         <AsBGPRouterIpAddress>
-          <IPv4_subnet>171.25.194/23</IPv4_subnet>
+          <IPv4_subnet>171.25.194.0/23</IPv4_subnet>
         </AsBGPRouterIpAddress>
-        <AsBGPRouteEquipLocation>location-1</AsBGPRouteEquipLocation>
+        <AsBGPRouteEquipLocation>0001</AsBGPRouteEquipLocation>
       </AsBGPRoutingInfo>
-    </AS>
+    </AS> 
+    <DnsServer>
+	<DnsServerId>7001</DnsServerId>
+	<DnsServerName>ns5.megion.ru</DnsServerName>
+	<DnsServerIpAddress>
+	    <IpAddr>171.25.194.14</IpAddr>
+	</DnsServerIpAddress>
+    <DnsServerNetworkNode>3041</DnsServerNetworkNode>
+    </DnsServer>
+    <DnsServer>
+	<DnsServerId>7002</DnsServerId>
+	<DnsServerName>ns6.megion.ru</DnsServerName>
+	<DnsServerIpAddress>
+	    <IpAddr>171.25.194.16</IpAddr>
+	</DnsServerIpAddress>
+    <DnsServerNetworkNode>3041</DnsServerNetworkNode>
+    </DnsServer>
   </AsOwnerData>
   <Location>
     <LocationId>0001</LocationId>
@@ -49,7 +65,7 @@
     <CoordinateY>76.02460601964076</CoordinateY>
  </Location>
   <Actor>
-    <ActorId>actor-1</ActorId>
+    <ActorId>1001</ActorId>
     <RFOrganization>
       <FullName>ООО "Автоматизация и СВязь - Сервис"</FullName>
       <ShortName>ООО "АиС-Сервис"</ShortName>
@@ -125,6 +141,14 @@
     <CeShortName>ies-3000 ats47</CeShortName>
     <CeNNode>3043</CeNNode>
   </CommunicationEquipment>
+   <CommunicationEquipment>
+    <CeId>4048</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeModel>IES-1000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeShortName>ies-1000 ats48</CeShortName>
+    <CeNNode>3048</CeNNode>
+  </CommunicationEquipment>
   <ConnectorLine>
     <ClId>5001</ClId>
     <ClName>Oline4241</ClName>
@@ -132,18 +156,30 @@
     <ClLocationB>0001</ClLocationB>
     <ClType>OPTIC</ClType>
   </ConnectorLine>
-  <ConnectorLine>
+  <ConnectionLine>
     <ClId>5002</ClId>
     <ClName>Oline4341</ClName>
     <ClLocationA>0003</ClLocationA>
     <ClLocationB>0001</ClLocationB>
     <ClType>OPTIC</ClType>
-  </ConnectorLine>
-  <ConnectorLine>
+  </ConnectionLine>
+  <ConnectionLine>
     <ClId>5003</ClId>
     <ClName>Oline4147</ClName>
     <ClLocationA>0004</ClLocationA>
     <ClLocationB>0001</ClLocationB>
     <ClType>OPTIC</ClType>
-  </ConnectorLine>
+  </ConnectionLine>
+  <ConnectionLine>
+  <ClId>5004</ClId>
+    <ClName>Rline4147</ClName>
+    <ClLocationA>0005</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
+    <ClType>RADIO</ClType>
+  </ConnectionLine>
+  <RoutingEquipment>
+    <ReId>6001</ReId>
+    <ReName> mpd5, ОС FreeBSD 12.1, сервер HP ProLiant D160 G5</ReName>
+    <ReShortName>mpd5</ReShortName>
+  </RoutingEquipment>
 </tns:ACT221>
