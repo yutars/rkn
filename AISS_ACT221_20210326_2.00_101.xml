@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns:act221 xmlns:ns="http://noc.gov.ru/pirs-schema/2.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://noc.gov.ru/pirs-schema/2.00 SSOP_ACT221_2.00.xsd">
+  <AdminData>
+    <CarrierName>ООО "Автоматизация и СВязь - Сервис"</CarrierName>
+    <FileDate>2020-10-05</FileDate>
+    <XsdVersion>20201005</XsdVersion>
+  </AdminData>
+  <AsOwnerData>
+    <AS>
+      <AsId>AS57754</AsId>
+      <AsNumber>AS57754</AsNumber>
+      <AsIpRange>
+        <IpRangeAsNumber>AS57754</IpRangeAsNumber>
+        <IpRangeOwner>1001</IpRangeOwner>
+      </AsIpRange>
+      <AsResponsible>1001</AsResponsible>
+      <AsBGPRoutingInfo>
+        <AsBGPRouterIpAddress>
+          <IPv4_subnet>171.25.194.0/23</IPv4_subnet>
+        </AsBGPRouterIpAddress>
+        <AsBGPRouteEquipLocation>0001</AsBGPRouteEquipLocation>
+      </AsBGPRoutingInfo>
+    </AS> 
+    <DnsServer>
+	<DnsServerId>7001</DnsServerId>
+	<DnsServerName>ns5.megion.ru</DnsServerName>
+	<DnsServerIpAddress>
+	    <IPv4>171.25.194.14</IPv4>
+	</DnsServerIpAddress>
+    <DnsServerNetworkNode>3041</DnsServerNetworkNode>
+    </DnsServer>
+    <DnsServer>
+	<DnsServerId>7002</DnsServerId>
+	<DnsServerName>ns6.megion.ru</DnsServerName>
+	<DnsServerIpAddress>
+	    <IPv4>171.25.194.16</IPv4>
+	</DnsServerIpAddress>
+    <DnsServerNetworkNode>3041</DnsServerNetworkNode>
+    </DnsServer>
+  </AsOwnerData>
+  <Location>
+    <LocationId>0001</LocationId>
+    <Country>RU</Country>
+    <Address>628684, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Западная, №8 </Address>
+  </Location>
+  <Location>
+    <LocationId>0002</LocationId>
+    <Country>RU</Country>
+    <Address>628681, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Новая, №30а </Address>
+  </Location>
+  <Location>
+    <LocationId>0004</LocationId>
+    <Country>RU</Country>
+    <Address>628681, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Кузьмина, №9 </Address>
+  </Location>
+  <Location>
+    <LocationId>0003</LocationId>
+    <Country>RU</Country>
+    <Address>628684, Ханты-Мансийский автономный округ - Югра, г.Мегион, ул.Театральный проезд, №2 </Address>
+  </Location>
+  <Location>
+    <LocationId>0005</LocationId>
+    <Address>628656, Ханты-Мансийский автономный округ - Югра, пгт.Высокий, ул.Восточная</Address>
+    <CoordinateX>61.12723996464193</CoordinateX>
+    <CoordinateY>76.02460601964076</CoordinateY>
+ </Location>
+  <Actor>
+    <ActorId>1001</ActorId>
+    <RFOrganization>
+      <FullName>ООО "Автоматизация и СВязь - Сервис"</FullName>
+      <ShortName>ООО "АиС-Сервис"</ShortName>
+      <LegalForm>Общество с ограниченной ответственностью</LegalForm>
+      <OGRN>1038602103671</OGRN>
+      <INN>8605016748</INN>
+      <ActorLocation>0001</ActorLocation>
+      <Phone>+73464341444</Phone>
+      <Email>sekretar@ais-s.ru</Email>
+    </RFOrganization>
+  </Actor>
+  <Document>
+    <DocumentId>2001</DocumentId>
+    <DocName>>Разрешение на эксплуатацию сооружения связи</DocName>
+    <DocNumber>86-35897-005548</DocNumber>
+    <DocDateFrom>2008-05-12</DocDateFrom>
+    <DocDateTo>2010-10-31</DocDateTo>
+  </Document>
+  <NetworkNode>
+    <NnId>3041</NnId>
+    <NnShortName>АТС №41</NnShortName>
+    <NnLocation>0001</NnLocation>
+  </NetworkNode>
+  <NetworkNode>
+    <NnId>3042</NnId>
+    <NnShortName>АТС №42</NnShortName>
+    <NnLocation>0002</NnLocation>
+  </NetworkNode>  
+  <NetworkNode>
+    <NnId>3043</NnId>
+    <NnShortName>АТС №43</NnShortName>
+    <NnLocation>0003</NnLocation>
+  </NetworkNode>
+  <NetworkNode>
+    <NnId>3047</NnId>
+    <NnShortName>АТС №47</NnShortName>
+    <NnLocation>0004</NnLocation>
+  </NetworkNode>
+  <NetworkNode>
+    <NnId>3048</NnId>
+    <NnShortName>АТС №48</NnShortName>
+    <NnLocation>0005</NnLocation>
+  </NetworkNode>
+  <CommunicationEquipment>
+    <CeId>4041</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeShortName>ies-2000 ats41</CeShortName>
+    <CeNNode>3041</CeNNode>
+    <CeModel>IES-2000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+  </CommunicationEquipment>
+  <CommunicationEquipment>
+    <CeId>4042</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+  <CeShortName>ies-2000 ats42</CeShortName>    
+    <CeModel>IES-2000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeNNode>3042</CeNNode>
+  </CommunicationEquipment>
+  <CommunicationEquipment>
+    <CeId>4043</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeShortName>ies-1248 ats42</CeShortName>
+    <CeModel>IES-1248</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeNNode>3043</CeNNode>
+  </CommunicationEquipment>
+  <CommunicationEquipment>
+    <CeId>4047</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeShortName>ies-3000 ats47</CeShortName>
+    <CeModel>IES-3000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeNNode>3043</CeNNode>
+  </CommunicationEquipment>
+   <CommunicationEquipment>
+    <CeId>4048</CeId>
+    <CeName>Коммутатор ADSL</CeName>
+    <CeShortName>ies-1000 ats48</CeShortName>    
+    <CeModel>IES-1000</CeModel>
+    <CeManufacturer>Zyxel</CeManufacturer> 
+    <CeNNode>3048</CeNNode>
+  </CommunicationEquipment>
+  <CommunicationEquipment>
+  <CeId>4141</CeId>
+    <CeNNode>3041</CeNNode>
+    <CeName>mpd5, ОС FreeBSD 12</CeName>
+    <CeShortName>mpd5</CeShortName>
+    <CeModel>ProLiant D160 G5</CeModel>
+    <CeManufacturer>HP</CeManufacturer>
+    <CeType>IP маршрутизатор</CeType>
+  </CommunicationEquipment>
+  <ConnectionLine>
+    <ClId>5001</ClId>
+    <ClName>Oline4241</ClName>
+    <ClLocationA>0002</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
+    <ClType>OPTIC</ClType>
+  </ConnectionLine>
+  <ConnectionLine>
+    <ClId>5002</ClId>
+    <ClName>Oline4341</ClName>
+    <ClLocationA>0003</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
+    <ClType>OPTIC</ClType>
+  </ConnectionLine>
+  <ConnectionLine>
+    <ClId>5003</ClId>
+    <ClName>Oline4147</ClName>
+    <ClLocationA>0004</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
+    <ClType>OPTIC</ClType>
+  </ConnectionLine>
+  <ConnectionLine>
+  <ClId>5004</ClId>
+    <ClName>Rline4147</ClName>
+    <ClLocationA>0005</ClLocationA>
+    <ClLocationB>0001</ClLocationB>
+    <ClType>RADIO</ClType>
+  </ConnectionLine>
+  <RoutingEquipment>
+    <ReId>6001</ReId>
+    <ReName>mpd5, ОС FreeBSD 12</ReName>
+    <ReShortName>mpd5</ReShortName>
+    <ReModel>ProLiant D160 G5</ReModel>
+    <ReManufacturer>HP</ReManufacturer>
+    <ReType>IP маршрутизатор</ReType>
+    <ReIpAddress>
+      <IPv4>171.25.194.1</IPv4>
+    </ReIpAddress>
+    <ReCeId>4141</ReCeId>
+  </RoutingEquipment>
+</ns:act221>
